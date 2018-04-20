@@ -1,0 +1,24 @@
+SET FOREIGN_KEY_CHECKS = 0;
+drop table if exists ample_notification         ;
+drop table if exists appointment                ;
+drop table if exists connect                    ;
+drop table if exists country                    ;
+drop table if exists cronjob_test               ;
+drop table if exists education                  ;
+drop table if exists education_feb2017          ;
+drop table if exists experience                 ;
+drop table if exists friendsexpertinfo          ;
+drop table if exists friendsregister            ;
+drop table if exists friendsregister_test       ;
+drop table if exists group_connect              ;
+drop table if exists group_member               ;
+drop table if exists groups                     ;
+drop table if exists service_provider           ;
+drop table if exists service_requestor          ;
+drop table if exists sp_language                ;
+drop table if exists sp_specialisation          ;
+drop table if exists sp_sub_specialisation      ;
+drop table if exists sp_sub_specialisation_y    ;
+drop table if exists timezone                   ;
+drop table if exists zone
+SET FOREIGN_KEY_CHECKS= 1;
