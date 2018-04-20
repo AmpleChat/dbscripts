@@ -26,3 +26,12 @@ MariaDB [villageexpertsdb]> show tables;
 | zone                       |
 +----------------------------+
 22 rows in set (0.00 sec)
+
+Login to mysql :
+$mysql -u amplechatuser -p  villageexpertsdb
+
+Drop all tables :
+~/dbscripts$ mysql -u amplechatuser -p  villageexpertsdb < ~/dbscripts/droptables.sql
+
+Insert tables :
+:~/dbscripts$ mysql -u amplechatuser -p  villageexpertsdb < ~/dbscripts/villageexpertsdb.sql
