@@ -35,3 +35,6 @@ Drop all tables :
 
 Insert tables :
 :~/dbscripts$ mysql -u amplechatuser -p  villageexpertsdb < ~/dbscripts/villageexpertsdb.sql
+
+Add OTP and Flag column in the friendsregister table for forgot password features
+ALTER TABLE `friendsregister` ADD `useropt` INT(6) NOT NULL AFTER `isUser`, ADD `otpflag` VARCHAR(1) NOT NULL DEFAULT 'N' AFTER `useropt`;
